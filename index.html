@@ -99,64 +99,116 @@
         <ul class="cards__grid">
           <li class="cards__item">
             <div class="cards__icons">
-                <a class="cards__link" href="https://github.com/Demetyldrm/NewsExplorer" target="_blank">
-                  <img class="cards__icon" src="./images/folder.svg" alt="folder icon" />
-                </a>
-                
-              </div>
+              <a
+                class="cards__link"
+                href="https://github.com/Demetyldrm/NewsExplorer"
+                target="_blank"
+              >
+                <img
+                  class="cards__icon"
+                  src="./images/folder.svg"
+                  alt="folder icon"
+                />
+              </a>
+            </div>
             <h3 class="cards__title">News Explorer</h3>
             <p class="cards__text">
-                💻  A React application that allows users to search for and save news articles using the News API.<br>
-                🔎 Search for news articles by topic.<br>
-                📌 Save favorite articles (requires authentication).<br>
-                🌐 Responsive design for mobile and desktop.<br>
-                🚀 Deployed on GitHub Pages.<br>
+              💻 A React application that allows users to search for and save
+              news articles using the News API.<br />
+              🔎 Search for news articles by topic.<br />
+              📌 Save favorite articles (requires authentication).<br />
+              🌐 Responsive design for mobile and desktop.<br />
+              🚀 Deployed on GitHub Pages.<br />
             </p>
-            <a href="https://demetyldrm.github.io/NewsExplorer/" class="cards__link" target="_blank">View Project</a>
+            <a
+              href="https://demetyldrm.github.io/NewsExplorer/"
+              class="cards__link"
+              target="_blank"
+              >View Project</a
+            >
           </li>
           <li class="cards__item">
             <div class="cards__icons">
-                <a class="cards__link" href="https://github.com/Demetyldrm/NewsExplorer" target="_blank">
-                  <img class="cards__icon" src="./images/folder.svg" alt="folder icon" />
-                </a>
-                
-              </div>
+              <a
+                class="cards__link"
+                href="https://github.com/Demetyldrm/NewsExplorer"
+                target="_blank"
+              >
+                <img
+                  class="cards__icon"
+                  src="./images/folder.svg"
+                  alt="folder icon"
+                />
+              </a>
+            </div>
             <h3 class="cards__title">Around the USA</h3>
             <p class="cards__text">
-            💻 A photo-sharing app with user profiles and upload features.<br>🔧 Edit profile name and avatar<br>
-              📌 Users can save their favorite pictures<br>
-              🧹 Delete pictures from their profiles<br>
-              🌐 Responsive design for mobile and desktop<br>
-              ➕ Users can add new places to their profiles using a title and a image URL
+              💻 A photo-sharing app with user profiles and upload features.<br />🔧
+              Edit profile name and avatar<br />
+              📌 Users can save their favorite pictures<br />
+              🧹 Delete pictures from their profiles<br />
+              🌐 Responsive design for mobile and desktop<br />
+              ➕ Users can add new places to their profiles using a title and a
+              image URL
             </p>
-            <a href="https://demetyldrm.github.io/AroundTheUS/" class="cards__link" target="_blank">View Project</a>
+            <a
+              href="https://demetyldrm.github.io/AroundTheUS/"
+              class="cards__link"
+              target="_blank"
+              >View Project</a
+            >
           </li>
           <li class="cards__item">
             <div class="cards__icons">
-                <a class="cards__link" href="https://github.com/Demetyldrm/NewsExplorer" target="_blank">
-                  <img class="cards__icon" src="./images/folder.svg" alt="folder icon" />
-                </a>
-               
-              </div>
+              <a
+                class="cards__link"
+                href="https://github.com/Demetyldrm/NewsExplorer"
+                target="_blank"
+              >
+                <img
+                  class="cards__icon"
+                  src="./images/folder.svg"
+                  alt="folder icon"
+                />
+              </a>
+            </div>
             <h3 class="cards__title">WTWR (What to wear right)</h3>
             <p class="cards__text">
-                💻 WTWR (What to wear right) is an app that is designed to help the users choose what to wear depending on the weather conditions of where they live. Users can add or delete their own clothing cards.<br>📣 API calls responds to the weather forecast.<br>🧥Based on the weather conditions, the app recommends clothing items.
+              💻 WTWR (What to wear right) is an app that is designed to help
+              the users choose what to wear depending on the weather conditions
+              of where they live. Users can add or delete their own clothing
+              cards.<br />📣 API calls responds to the weather forecast.<br />🧥Based
+              on the weather conditions, the app recommends clothing items.
             </p>
-            <a href="https://wtwrbydy.crabdance.com/" class="cards__link" target="_blank">View Project</a>
+            <a
+              href="https://wtwrbydy.crabdance.com/"
+              class="cards__link"
+              target="_blank"
+              >View Project</a
+            >
           </li>
         </ul>
       </section>
 
       <!-- Contact Section -->
       <section class="contact" id="contact">
-        <h2 class="contact__title">Want to drop me a message? <img class="contact__image" src="./images/contact.svg"></h2>
+        <h2 class="contact__title">
+          Want to drop me a message?
+          <img
+            class="contact__image"
+            src="./images/contact.svg"
+            alt="Contact icon"
+          />
+        </h2>
         <div class="contact__wrapper">
-            
-          <form class="contact__form">
+          <form class="contact__form" name="contact" netlify>
+            <input type="hidden" name="form-name" value="contact" />
+
             <label for="email">Email</label>
             <input
               type="email"
               id="email"
+              name="email"
               placeholder="Enter your email"
               required
             />
@@ -164,16 +216,18 @@
             <label for="message">Message</label>
             <textarea
               id="message"
+              name="message"
               rows="5"
               placeholder="Write your message"
+              required
             ></textarea>
 
             <div class="form__buttons">
-                <button type="reset" class="button button--outline">Reset</button>
-                <button type="submit" class="button button--primary">Submit</button>
-              </div>
-            </form>
-          </div>
+              <button type="reset" class="button button--outline">Reset</button>
+              <button type="submit" class="button button--primary">
+                Submit
+              </button>
+            </div>
           </form>
         </div>
       </section>
@@ -185,12 +239,16 @@
             <li nav___item>
               <a
                 class="nav__link"
-                href="https://www.linkedin.com/in/demetyildirim/" target="_blank"
+                href="https://www.linkedin.com/in/demetyildirim/"
+                target="_blank"
                 ><img class="nav__icon" src="./images/linkedin.svg"
               /></a>
             </li>
             <li nav___item>
-              <a class="nav__link" href="https://github.com/Demetyldrm" target="_blank"
+              <a
+                class="nav__link"
+                href="https://github.com/Demetyldrm"
+                target="_blank"
                 ><img class="nav__icon" src="./images/github.svg"
               /></a>
             </li>
