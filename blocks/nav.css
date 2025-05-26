@@ -1,0 +1,60 @@
+/* in nav.css */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+.nav__link:hover {
+  color: var(--accent-color);
+}
+.nav__icon {
+  height: 40px;
+}
+.header {
+  background-color: var(--bg-light);
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__link {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--text-dark);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  background-color: var(--accent-color);
+  color: white;
+}
+.nav__logo {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  background-color: var(--accent-color);
+  padding: 0.5rem 1rem;
+  border-radius: 50%;
+  text-align: center;
+}

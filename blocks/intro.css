@@ -1,0 +1,63 @@
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+  flex-wrap: wrap; /* for responsiveness */
+}
+
+.intro__text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.intro__text h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.intro__text h2 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 2rem;
+  color: var(--accent-color);
+  margin-top: 1rem;
+}
+
+.intro__text p {
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+  color: #444;
+}
+
+.intro__image {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.intro__image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+}
+
+.name-heading {
+  font-family: "Orbitron", sans-serif;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.highlighted-name {
+  font-size: 4rem;
+  color: var(--accent-color);
+  font-family: var(--font-heading);
+  text-shadow: 2px 2px 0 #000, 4px 4px 0 var(--accent-light);
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 0 #000, 4px 4px 0 #ccc;
+  display: inline-block;
+}

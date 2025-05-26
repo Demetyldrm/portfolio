@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demet Yildirim</title>
+    <link rel="stylesheet" href="./blocks/variables.css" />
+    <link rel="stylesheet" href="./blocks/nav.css" />
+    <link rel="stylesheet" href="./blocks/intro.css" />
+    <link rel="stylesheet" href="./blocks/about.css" />
+    <link rel="stylesheet" href="./blocks/skills.css" />
+    <link rel="stylesheet" href="./blocks/portfolio.css" />
+    <link rel="stylesheet" href="./blocks/contact.css" />
+    <link rel="stylesheet" href="./blocks/footer.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="nav__logo"><span>DY</span></div>
+        <ul class="nav__list">
+          <li><a href="#about" class="nav__link">About Me</a></li>
+          <li><a href="#skills" class="nav__link">Skills</a></li>
+          <li><a href="#portfolio" class="nav__link">Portfolio</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="intro">
+        <div class="intro__text">
+          <h1 class="name-heading">
+            Hi, my name is <span class="highlighted-name">Demet</span>
+          </h1>
+          <h2>I’m a Front-End Developer</h2>
+          <p>
+            I love turning ideas into beautiful, responsive web experiences.
+          </p>
+        </div>
+        <div class="intro__image">
+          <img src="./images/coding.svg" alt="Demet coding illustration" />
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <h2 class="about__title">About Me</h2>
+        <p>
+          I hold a Computer Science degree and spend my days writing code,
+          exploring new technologies, and building web experiences that feel
+          good to use. Outside the screen, I love working out,reading (complete
+          bibliophile!) meditating, getting lost in museums, and reconnecting
+          with nature.
+        </p>
+        <img src="./images/about.svg" alt="Illustration of Demet reading" />
+      </section>
+
+      <!-- Skills Section -->
+      <section class="skills" id="skills">
+        <h2 class="skills_title">Skills</h2>
+        <div class="skills__grid">
+          <div class="skill-item">
+            <img src="./images/html5.svg" alt="HTML5 logo" />
+            <span>HTML</span>
+          </div>
+          <div class="skill-item">
+            <img src="./images/css.svg" alt="CSS3 logo" />
+            <span>CSS</span>
+          </div>
+          <div class="skill-item">
+            <img src="./images/javascript.svg" alt="JavaScript logo" />
+            <span>JavaScript</span>
+          </div>
+          <div class="skill-item">
+            <img src="./images/react.svg" alt="React logo" />
+            <span>React</span>
+          </div>
+          <div class="skill-item">
+            <img src="./images/git.svg" alt="Git logo" />
+            <span>Git</span>
+          </div>
+          <div class="skill-item">
+            <img src="./images/nodejs.svg" alt="Node.js logo" />
+            <span>Node.js</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section class="portfolio" id="portfolio">
+        <h2 class="portfolio__title">Projects</h2>
+        <ul class="cards__grid">
+          <li class="cards__item">
+            <div class="cards__icons">
+                <a class="cards__link" href="https://github.com/Demetyldrm/NewsExplorer" target="_blank">
+                  <img class="cards__icon" src="./images/folder.svg" alt="folder icon" />
+                </a>
+                
+              </div>
+            <h3 class="cards__title">News Explorer</h3>
+            <p class="cards__text">
+                💻  A React application that allows users to search for and save news articles using the News API.<br>
+                🔎 Search for news articles by topic.<br>
+                📌 Save favorite articles (requires authentication).<br>
+                🌐 Responsive design for mobile and desktop.<br>
+                🚀 Deployed on GitHub Pages.<br>
+            </p>
+            <a href="https://demetyldrm.github.io/NewsExplorer/" class="cards__link" target="_blank">View Project</a>
+          </li>
+          <li class="cards__item">
+            <div class="cards__icons">
+                <a class="cards__link" href="https://github.com/Demetyldrm/NewsExplorer" target="_blank">
+                  <img class="cards__icon" src="./images/folder.svg" alt="folder icon" />
+                </a>
+                
+              </div>
+            <h3 class="cards__title">Around the USA</h3>
+            <p class="cards__text">
+            💻 A photo-sharing app with user profiles and upload features.<br>🔧 Edit profile name and avatar<br>
+              📌 Users can save their favorite pictures<br>
+              🧹 Delete pictures from their profiles<br>
+              🌐 Responsive design for mobile and desktop<br>
+              ➕ Users can add new places to their profiles using a title and a image URL
+            </p>
+            <a href="https://demetyldrm.github.io/AroundTheUS/" class="cards__link" target="_blank">View Project</a>
+          </li>
+          <li class="cards__item">
+            <div class="cards__icons">
+                <a class="cards__link" href="https://github.com/Demetyldrm/NewsExplorer" target="_blank">
+                  <img class="cards__icon" src="./images/folder.svg" alt="folder icon" />
+                </a>
+               
+              </div>
+            <h3 class="cards__title">WTWR (What to wear right)</h3>
+            <p class="cards__text">
+                💻 WTWR (What to wear right) is an app that is designed to help the users choose what to wear depending on the weather conditions of where they live. Users can add or delete their own clothing cards.<br>📣 API calls responds to the weather forecast.<br>🧥Based on the weather conditions, the app recommends clothing items.
+            </p>
+            <a href="https://wtwrbydy.crabdance.com/" class="cards__link" target="_blank">View Project</a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact" id="contact">
+        <h2 class="contact__title">Want to drop me a message? <img class="contact__image" src="./images/contact.svg"></h2>
+        <div class="contact__wrapper">
+            
+          <form class="contact__form">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
+
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              rows="5"
+              placeholder="Write your message"
+            ></textarea>
+
+            <div class="form__buttons">
+                <button type="reset" class="button button--outline">Reset</button>
+                <button type="submit" class="button button--primary">Submit</button>
+              </div>
+            </form>
+          </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <nav class="footer__nav">
+          <ul class="footer__list">
+            <li nav___item>
+              <a
+                class="nav__link"
+                href="https://www.linkedin.com/in/demetyildirim/" target="_blank"
+                ><img class="nav__icon" src="./images/linkedin.svg"
+              /></a>
+            </li>
+            <li nav___item>
+              <a class="nav__link" href="https://github.com/Demetyldrm" target="_blank"
+                ><img class="nav__icon" src="./images/github.svg"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+
+        <p class="footer__copyright">© 2025 Demet Yildirim</p>
+      </footer>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+.contact {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__title {
+  font-family: "Orbitron", sans-serif;
+  color: var(--text-dark);
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 50px;
+}
+.contact__form {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact__image {
+  height: 100px;
+}
+
+.contact__form label {
+  font-family: var(--font-body);
+  font-weight: bold;
+  color: var(--text-dark);
+}
+
+.contact__form input,
+.contact__form textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-family: "Orbitron", sans-serif;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.form__buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.button {
+  padding: 0.75rem 2rem;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button--primary {
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+}
+
+.button--outline {
+  background-color: transparent;
+  border: 2px solid var(--accent-color);
+  color: var(--accent-color);
+}

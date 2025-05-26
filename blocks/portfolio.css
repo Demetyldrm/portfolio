@@ -1,0 +1,68 @@
+.portfolio {
+  background-color: var(--accent-light);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.portfolio__title {
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  color: var(--text-dark);
+  margin-bottom: 2rem;
+}
+
+.cards__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  padding: 0;
+  list-style: none;
+}
+
+.cards__item {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: all 0.3s ease-in;
+  font-family: "Orbitron", sans-serif;
+}
+
+.cards__item:hover {
+  transform: translateY(-5px);
+}
+
+.cards__title {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: var(--text-dark);
+}
+
+.cards__text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.cards__link {
+  margin-top: auto;
+  color: var(--accent-color);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.cards__icon {
+  height: 30px;
+}
+
+.cards__icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
