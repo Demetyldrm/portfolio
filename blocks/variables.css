@@ -6,3 +6,8 @@
   --font-heading: "Orbitron", sans-serif;
   --font-body: "Poppins", sans-serif;
 }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
